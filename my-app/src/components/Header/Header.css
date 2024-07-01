@@ -1,0 +1,27 @@
+    header {
+        position: relative;
+    }
+
+    section header .text-overly {
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        color: white;
+        font-weight: bold;
+        overflow: hidden;
+    }
+
+    .text-overly {
+        margin-top: 120px;
+        overflow: hidden;
+    }
+
+    .btn {
+        background-color: var(--red-color);
+        color: white;
+    }
+
+    .btn:hover {
+        background-color: var(--sky-blue);
+        color: black;
+    }

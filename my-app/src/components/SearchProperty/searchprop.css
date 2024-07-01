@@ -1,0 +1,49 @@
+    section {}
+
+    section .text1 {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    section h3 {
+        text-align: center;
+        font-size: medium;
+    }
+
+    .searchbar {
+        margin-top: 15px;
+        border-radius: 4px;
+        text-align: center;
+        background-color: wheat;
+        width: 60%;
+        height: 190px;
+        margin: auto;
+    }
+
+    .searchbar button {
+        width: 250px;
+        padding: 10px;
+        color: white;
+        background-color: var(--red-color);
+        margin: 10px;
+    }
+
+    .searchbar .button1 button {
+        margin-top: 30px;
+    }
+
+    .searchbar button:hover {
+        background-color: white;
+    }
+
+    section .TextforSearch span {
+        font-size: large;
+        margin: 60px;
+        color: black;
+    }
+
+    .Searchbarinput input {
+        margin: 5px;
+        padding: 10px;
+        margin-bottom: 150px;
+    }
