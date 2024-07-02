@@ -1,7 +1,7 @@
 import React from 'react';
 import './../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import { Header , Navbar, SearchProperty,FeaturedProperties} from './components/';
+import { Header , Navbar, SearchProperty,FeaturedProperties,Services, Agents,Blog, Footer} from './components/';
 
 
 const App=()=> {
@@ -11,6 +11,10 @@ const App=()=> {
       <Header />
       <SearchProperty />
       <FeaturedProperties />
+      <Services />
+      <Agents />
+      <Blog />
+      <Footer/>
 
     </>
   );

@@ -1,4 +1,6 @@
 nav {
+    position: absolute;
+    z-index: 1;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
