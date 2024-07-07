@@ -1,0 +1,5 @@
+@media screen and (min-width: 576px) {
+    .row .gapclass {
+        margin: 20px;
+    }
+}

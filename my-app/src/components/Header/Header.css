@@ -1,27 +1,38 @@
-    header {
-        position: relative;
-    }
+        header {
+            position: relative;
+        }
 
-    section header .text-overly {
-        position: absolute;
-        top: 150px;
-        left: 50px;
-        color: white;
-        font-weight: bold;
-        overflow: hidden;
-    }
+        section header .text-overly {
+            position: absolute;
+            top: 20%;
+            left: 8%;
+            color: white;
+            font-weight: bold;
+            overflow: hidden;
+        }
 
-    .text-overly {
-        margin-top: 120px;
-        overflow: hidden;
-    }
+        .text-overly {
+            overflow: hidden;
+        }
 
-    .btn {
-        background-color: var(--red-color);
-        color: white;
-    }
+        @media screen and (min-width:576px) {
+            header .text-overly p {
+                font-size: x-large
+            }
+            header .text-overly p {
+                margin-top: 60px;
+            }
+        }
 
-    .btn:hover {
-        background-color: var(--sky-blue);
-        color: black;
-    }
+        @media screen and (min-width:720px) {
+            header .text-overly p {
+                font-size: 40px;
+            }
+        }
+
+        @media screen and (min-width:1040px) {
+            header .text-overly p {
+                font-size: 80px;
+                font-weight: 400;
+            }
+        }

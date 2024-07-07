@@ -6,28 +6,26 @@ import { background1 } from "../../assets";
 const Header = () => {
   return (
     <>
-      <section>
-        <header>
-          <Navbar />
+<section>
+<header>
+<Navbar />
+<div className="">
+<div className="row">
+<img src={background1} alt="" />
 
-          <div className=" row ">
-            <img src={background1} alt="" className="img-fluid" />
-          </div>
-          <div class="text-overly ">
-            <p className="display-1">
-              {" "}
-              Find Your
-              <br /> Dream <br />
-              Properties<br></br> here
-            </p>
-            <p className="display-6 ">House Of Trusted Deals</p>
+<div className="col-md-4 col-sm-12">
+<div class="text-overly">
+<p className="display-1">
+{" "}Find Your<br /> Dream <br />Properties<br />here<br />House Of Trusted Deals
+</p>
 
-            <button type="button" class="btn">
-              Read More
-            </button>
-          </div>
-        </header>
-      </section>
+<button type="button" class="btn btn-danger btn-lg">Read More</button>
+</div>
+</div>
+</div>
+</div>
+</header>
+</section>
     </>
   );
 };
