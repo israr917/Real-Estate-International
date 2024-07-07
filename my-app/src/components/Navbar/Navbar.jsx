@@ -11,7 +11,7 @@ return (
 <div className="row ">
 <nav>
 <div class="company">
-<h3>Real Estate International</h3>
+<h3><a href="#"> Real Estate International</a></h3>
 </div>
 
 <ul>
